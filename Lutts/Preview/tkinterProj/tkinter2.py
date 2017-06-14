@@ -6,9 +6,9 @@ def reply(name):
 
 top = Tk()
 top.title('Echo')
-//top.iconbitmap('py-blue-trans-out.ico')
+#top.iconbitmap('py-blue-trans-out.ico')
 
-Label(top, text="Enter your name:".pack(side=TOP))
+Label(top, text="Enter your name:").pack(side=TOP)
 
 ent = Entry(top)
 ent.pack(side=TOP)

@@ -42,7 +42,7 @@ for testpath in testfiles:                      #протестировать в
 
     errfile = testname.replace('.py', '.err')
     errpath = os.path.join(testdir, 'Errors', errfile)
-    if os.path.exitsts(errpath): os.remove(errpath)
+    if os.path.exists(errpath): os.remove(errpath)
 
     #запустить тестируемый сценарий, перенаправив потоки ввода-вывода
     pypath = sys.executable

@@ -31,7 +31,7 @@ def onMiddleClick(event):
     showPostEvent(event)
     showAllEvent(event)
 
-def onLeftDtag(event):
+def onLeftDrag(event):
     print('Got left button drag:', end=' ')
     showPostEvent(event)
 
@@ -41,5 +41,20 @@ def onDoubleLeftClick(event):
     tkroot.quit()
 
 tkroot = Tk()
-labelfont = ('courier', 20, 'bold')
-windget = Label(tkroot, text='Hello bind world')
+labelfont = ('courier', 20, 'bold')                         #семейство, размер, стиль
+widget = Label(tkroot, text='Hello bind world')
+widget.config(bg='red', font=labelfont)                     #красный фон, большой шрифт
+widget.config(height=5, width=20)                           #начальн. размер: строк, символов
+widget.pack(expand=YES, fill=BOTH)
+widget.bind('<Button-1>',    onLeftClick)                   #щелчок мышью
+widget.bind('<Button-3>',    onRightClick)
+widget.bind('<Button-2>',    onMiddleClick)                 #средняя = обе на некот.мышах
+widget.bind('<Double-1>',    onDoubleLeftClick)             #двойной щелчок левой кнопкой
+widget.bind('<B1-Motion>',   onLeftDrag)                    #щелчок левой кнопкой и перемещ.
+widget.bind('<KeyPress>',    onKeyPress)                    #нажатие любой клавиши на клав.
+widget.bind('<Up>',          onArrowKey)                    #нажатие клавиши со стрелкой
+widget.bind('<Return>',      onReturnKey)                   #return/enter key pressed
+widget.focus()                                              #или привязать нажатие клавиши
+                                                            #к tkroot
+tkroot.title('Click Me')
+tkroot.mainloop()

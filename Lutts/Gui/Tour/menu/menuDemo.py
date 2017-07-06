@@ -16,11 +16,23 @@ class NewMenuDemo(Frame):
         L.config(relief = SUNKEN, width = 40, height = 10, bg = 'white')
         L.pack(expand = YES, fill = BOTH)
 
-    def makeToolBar(self):
-        toolbar = Frame(self, cursor='hand2', relief = SUNKEN, bd=2)
-        toolbar.pack(side = BOTTOM, fill = X)
-        Button(toolbar, text = 'Quit', command = self.quit).pack(side = RIGHT)
-        Button(toolbar, text = 'Hello', command = self.greeting).pack(side = LEFT)
+    def makeToolBar(self, size = (40, 40)):
+        from PIL.ImageTk import PhotoImage, Image
+        imgdir = r'../gifs/'
+        toolbar = Frame(self, cursor = 'hand2', relief = SUNKEN, bd = 2)
+        toolbar.pack(side=BOTTOM, fill=X)
+        photos = '1.gif', 'bessel.gif', 'Circles-3.gif'
+        self.toolPhotoObjs = []
+        for file in photos:
+            imgobj = Image.open(imgdir + file)
+            imgobj.thumbnail(size, Image.ANTIALIAS)
+            img = PhotoImage(imgobj)
+            btn = Button(toolbar, image = img, command = self.greeting)
+            btn.config(relief = RAISED, bd = 2)
+            btn.config(width = size[0], height = size[1])
+            btn.pack(side = LEFT)
+            self.toolPhotoObjs.append((img, imgobj))    #сохранить ссылку
+        Button(toolbar, text='Quit', command = self.quit).pack(side = RIGHT, fill=Y)
 
     def makeMenuBar(self):
         self.menubar = Menu(self.master)

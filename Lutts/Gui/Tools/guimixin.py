@@ -43,7 +43,7 @@ class GuiMixin:
 
     def spawn(self, pycmdline, wait = False):
         if not wait:                                    #запустить новй процесс
-            PortableLauncher(pycmdline, pycmdline())    #запустить программу
+            PortableLauncher(pycmdline, pycmdline)()    #запустить программу
 
         else:
             System(pycmdline, pycmdline)()

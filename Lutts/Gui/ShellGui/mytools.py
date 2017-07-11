@@ -15,7 +15,7 @@ class TextPak1(ListMenuGui):
 
     def forToolBar(self, label):
         return label in {'Pack ', 'Unpack'}
-    
+
 class TextPak2(DictMenuGui):
     def __init__(self):
         self.myMenu = {'Pack' : runPackDialog,

@@ -80,5 +80,5 @@ if __name__ == '__main__':
     x, y = 50, 25
 
     small = x if x < y else y
-    
+
 

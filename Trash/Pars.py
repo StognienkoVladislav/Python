@@ -1,22 +1,103 @@
 #!/usr/bin/env python3
 
-import urllib
+import csv
+import requests
 from bs4 import BeautifulSoup
 
+
 def get_html(url):
-    response = urllib.urlopen(url)
-    return response.read()
+    r = requests.get(url)
+    return r.text
 
-def parse(html):
-    
+def get_total_pages(html):
+    soup = BeautifulSoup(html, 'lxml')
+
+    pages = soup.find("div", class_="pagination-pages").find_all('a', class_ = "pagination-page")[-1].get("href")
+    total_pages = pages.split("=")[1].split("&")[0]
+
+    return int(total_pages)
+
+
+def write_csv(data):
+    with open('avito.csv', 'a') as f:
+        writer = csv.writer(f)
+
+        writer.writerow((data['title'],
+                         data['price'],
+                         data['metro'],
+                         data['url']))
+
+
+def get_page_data(html):
+
     soup = BeautifulSoup(html, "lxml")
-    table = soup.find("table", "items_list")
-    rows = table.find_all("tr")
-    print(soup)
-    print(table)
 
-    print (rows)
-    
+    ads = soup.find("div", class_ = 'catalog-list').find_all('div', class_ = 'item_table')
+
+    for ad in ads:
+
+        name = ad.find("div", class_ = "description").find("h3").text.strip().lower()
+
+        if 'htc' in name:
+
+            try:
+                title = ad.find("div", class_ = "description").find("h3").text.strip()
+
+            except:
+                title = ""
+
+            try:
+                url = "https://www.avito.ru" +  ad.find("div", class_ = "description").find("h3").find("a").get("href")
+
+            except:
+                url = ""
+
+            try:
+                price = ad.find("div", class_ = "about").text.strip()
+
+            except:
+                price = ""
+
+            try:
+                metro = ad.find("div", class_ = 'data').find_all('p')[-1].text.strip()
+
+            except:
+                metro = ""
+
+            data = {'title': title,
+                    'price': price,
+                    'metro': metro,
+                    'url': url}
+
+            write_csv(data)
+
+        else:
+            continue
+
+
+
+
+
+
+
+
+
+
+def main():
+    url = "https://www.avito.ru/rossiya/telefony/htc?p=1"
+    base_url = "https://www.avito.ru/rossiya/telefony/htc?"
+    page_part = "p="
+
+    total_pages = get_total_pages(get_html(url))
+
+    #Парс всех страниц total_pages
+    for i in range(1, total_pages):
+        url_gen = base_url + page_part + str(i)
+
+        html = get_html(url_gen)
+
+        get_page_data(html)
+
 
 if __name__ == '__main__':
-    parse(get_html("http://weblancer.net/projects/"))
+    main()

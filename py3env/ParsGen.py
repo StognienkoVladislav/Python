@@ -107,10 +107,12 @@ def get_page_data(html):
 
 
         #Stars:
-        try:
-            stars = ad.find("div", class_ = "lister-item-content").find_all("p")[2].find_all("a")[-1].text.strip()#Захавать несколько
-        except:
-            stars = ""
+        stars = ""
+        for i in range(ad.find("div", class_ = "lister-item-content").find_all("p")[2].find_all("a").__len__()-2):
+            try:
+                stars += ad.find("div", class_ = "lister-item-content").find_all("p")[2].find_all("a")[i+1].text.strip() + ", "#Захавать несколько
+            except:
+                stars = ""
 
 
         ##Votes&Gross

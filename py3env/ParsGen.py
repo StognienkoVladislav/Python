@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 
+#Импортируем нужные нам библиотеки для проекта
 import csv
 import requests
 from bs4 import BeautifulSoup
 
 
 def get_html(url):
+    #Вытягиваем html
     r = requests.get(url)
     return r.text
 
@@ -21,7 +23,7 @@ def get_html(url):
 def write_csv(data):
     with open('imdb.csv', 'a') as f:
         writer = csv.writer(f)
-
+        #Записываем в csv относительно наших ключей
         writer.writerow((data['title'],
                          data['certificate'],
                          data['runtime'],
@@ -36,11 +38,11 @@ def write_csv(data):
 
 
 def get_page_data(html):
-
+    #Библиотека для парсинга
     soup = BeautifulSoup(html, "lxml")
 
     ads = soup.find("div", class_ = 'lister-list').find_all('div', class_ = 'lister-item')
-
+    #Парсим по кускам, потом ,в конце for, будем собирать
     for ad in ads:
 
         #Title of movie
@@ -91,7 +93,7 @@ def get_page_data(html):
             metascore = 0
 
 
-        #Description
+        #Description(Описание фильма, вытянуть то конечно можно, но для анализа нам не нужно)
         #try:
         #    descr = ad.find("div", class_ = "lister-item-content").find_all("p", class_ = "text-muted")[1].text.strip()
 
@@ -118,7 +120,7 @@ def get_page_data(html):
         ##Votes&Gross
         #Votes
         try:
-            votes = ad.find("div", class_ = "lister-item-content").find("p", class_ = "sort-num_votes-visible").find_all("span", name_ = "nv")[0].text.strip()
+            votes = ad.find("div", class_ = "lister-item-content").find("p", class_ = "sort-num_votes-visible").find_all("span", attrs = {'name' : 'nv'})[0].text.strip()
 
         except:
             votes = 0
@@ -126,9 +128,11 @@ def get_page_data(html):
 
         #Gross:
         try:
-            gross = ad.find("div", class_ = "lister-item-content").find("p", class_ = "sort-num_votes-visible").find_all("span", name_ = "nv")[1].text.strip()
+            gross = ad.find("div", class_ = "lister-item-content").find("p", class_ = "sort-num_votes-visible").find_all("span", attrs = {'name' : 'nv'})[1].text.strip()
         except:
             gross = 0
+
+        #Записываем в словарь и передаем его дальне на запись в csv
 
         data = {'title'      : title,
                 'certificate': certificate,
@@ -151,14 +155,16 @@ def get_page_data(html):
 
 
 def main():
+    #Урл из которого мы парсим всю нужную нам информацию
     url = "http://www.imdb.com/search/title?count=100&groups=oscar_best_picture_winners&sort=year,desc&ref_=nv_ch_osc_2"
 
-#    total_pages = get_total_pages(get_html(url))
+    #total_pages = get_total_pages(get_html(url))
 
-    #Парс всех страниц total_pages
+    #Парс всех страниц total_pages(если бы было больше страниц)
     html = get_html(url)
     get_page_data(html)
 
 
 if __name__ == '__main__':
+    #Просто вызов main()
     main()

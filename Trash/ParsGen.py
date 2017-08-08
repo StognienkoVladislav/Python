@@ -29,6 +29,7 @@ def write_csv(data):
                          data['imdb'],
                          data['metascore'],
                          data['director'],
+                         #data['description'],
                          data['stars'],
                          data['votes'],
                          data['gross']))
@@ -52,15 +53,14 @@ def get_page_data(html):
 
         #Certificate
         try:
-            certificate = ad.find("div", class_ = "lister-item-content").find("p", class_ = "text-muted").find("span", class_ = "certificate").text.strip()
+            certificate = ad.find("div", class_ = "lister-item-content").find_all("p", class_ = "text-muted")[0].find("span", class_="certificate").text.strip()
 
         except:
             certificate = ""
 
-
         #Runtime
         try:
-            runtime = ad.find("div", class_ = "lister-item-content").find("p", class_ = "text-muted").find("span", class_="runtime").text.strip()
+            runtime = ad.find("div", class_ = "lister-item-content").find_all("p", class_ = "text-muted")[0].find("span", class_="runtime").text.strip()
 
         except:
             runtime = ""
@@ -68,7 +68,7 @@ def get_page_data(html):
 
         #Genre
         try:
-            genre =ad.find("div", class_ = "lister-item-content").find("p", class_ = "text-muted").find("span", class_="genre").text.strip()
+            genre =ad.find("div", class_ = "lister-item-content").find_all("p", class_ = "text-muted")[0].find("span", class_="genre").text.strip()
 
         except:
             genre = ""
@@ -77,7 +77,7 @@ def get_page_data(html):
         ##Rating
         #IMDB
         try:
-            imdb = ad.find("div", class_ = "lister-item-content").find("div", class_ = "rating-bar").find("div", class_ = "ratings-imdb-rating").find("strong").text.strip()
+            imdb = ad.find("div", class_ = "lister-item-content").find("div", class_ = "ratings-bar").find("div", class_ = "ratings-imdb-rating").find("strong").text.strip()
 
         except:
             imdb = 0
@@ -85,23 +85,30 @@ def get_page_data(html):
 
         #Metascore
         try:
-            metascore = ad.find("div", class_ = "lister-item-content").find("div", class_ = "rating-bar").find("div", class_ = "ratings-metascore").find("span").text.strip()
+            metascore = ad.find("div", class_ = "lister-item-content").find("div", class_ = "ratings-bar").find("div", class_ = "ratings-metascore").find("span").text.strip()
 
         except:
             metascore = 0
 
 
+        #Description
+        #try:
+        #    descr = ad.find("div", class_ = "lister-item-content").find_all("p", class_ = "text-muted")[1].text.strip()
+
+        #except:
+        #    descr = ""
+
         ##Director&Stars
         #Director
         try:
-            director = ad.find("div", class_ = "lister-item-content").find("p", class_ = "").find("a")[0].text.strip()
+            director = ad.find("div", class_ = "lister-item-content").find_all("p")[2].find_all("a")[0].text.strip()
         except:
             director = ""
 
 
         #Stars:
         try:
-            stars = ad.find("div", class_ = "lister-item-content").find("p", class_ = "").find("a")[1:].text.strip()
+            stars = ad.find("div", class_ = "lister-item-content").find_all("p")[2].find_all("a")[-1].text.strip()#Захавать несколько
         except:
             stars = ""
 
@@ -109,7 +116,7 @@ def get_page_data(html):
         ##Votes&Gross
         #Votes
         try:
-            votes = ad.find("div", class_ = "lister-item-content").find("p", class_ = "sort-num_votes-visible").find("span", name_ = "nv")[0].text.strip()
+            votes = ad.find("div", class_ = "lister-item-content").find("p", class_ = "sort-num_votes-visible").find_all("span", name_ = "nv")[0].text.strip()
 
         except:
             votes = 0
@@ -117,7 +124,7 @@ def get_page_data(html):
 
         #Gross:
         try:
-            gross = ad.find("div", class_ = "lister-item-content").find("p", class_ = "sort-num_votes-visible").find("span", name_ = "nv")[1].text.strip()
+            gross = ad.find("div", class_ = "lister-item-content").find("p", class_ = "sort-num_votes-visible").find_all("span", name_ = "nv")[1].text.strip()
         except:
             gross = 0
 
@@ -127,6 +134,7 @@ def get_page_data(html):
                 'genre'      : genre,
                 'imdb' : imdb,
                 'metascore'  : metascore,
+                #'description': descr,
                 'director'   : director,
                 'stars'      : stars,
                 'votes'      : votes,

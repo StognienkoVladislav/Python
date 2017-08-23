@@ -1,3 +1,3 @@
 from tkinter import *
-Label(text='Hello GUI world!').pack()
+Label(text='Hello GUI_PyQt5 world!').pack()
 mainloop()

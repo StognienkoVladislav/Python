@@ -2,10 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65ad8fb1-96be-4975-8254-124e308ce666" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/py3env/imdb.csv" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI_PyQt5/Simple/CloseWindow.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI_PyQt5/Simple/Hints.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI_PyQt5/Simple/Message Box.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI_PyQt5/Simple/PositionOfWindow.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI_PyQt5/Simple/Simple.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/PandasGen.py" afterPath="$PROJECT_DIR$/py3env/PandasGen.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/ParsGen.py" afterPath="$PROJECT_DIR$/py3env/ParsGen.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1.py" afterPath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1_old.py" afterPath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1_old.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1b.py" afterPath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1b.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1c.py" afterPath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1c.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1d.py" afterPath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1d.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1e.py" afterPath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1e.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1f.py" afterPath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1f.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1g.py" afterPath="$PROJECT_DIR$/Lutts/Gui/Intro/gui1g.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/animation.py" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/animation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/backend_bases.py" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/backend_bases.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/backends/__init__.py" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/backends/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/backends/backend_gtk.py" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/backends/backend_gtk.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/backends/backend_template.py" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/backends/backend_template.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/backends/backend_wx.py" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/backends/backend_wx.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/backends/qt_editor/figureoptions.py" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/backends/qt_editor/figureoptions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/figure.py" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/figure.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/pyplot.py" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/pyplot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/tests/test_backend_svg.py" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/tests/test_backend_svg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/tests/test_widgets.py" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/tests/test_widgets.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/widgets.py" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/matplotlib/widgets.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/pip/pep425tags.py" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/pip/pep425tags.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/pip/wheel.py" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/pip/wheel.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -177,13 +201,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PandasGen.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py3env/PandasGen.py">
+      <file leaf-file-name="Simple.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GUI_PyQt5/Simple/Simple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="321">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="e#2#21#0" expanded="true" />
+                <element signature="e#20#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hints.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GUI_PyQt5/Simple/Hints.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CloseWindow.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GUI_PyQt5/Simple/CloseWindow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message Box.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GUI_PyQt5/Simple/Message Box.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PositionOfWindow.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GUI_PyQt5/Simple/PositionOfWindow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <folding>
+                <element signature="e#2#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,11 +285,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lutts/Gui/Tour/alarms/alarm-withdraw.py" />
-        <option value="$PROJECT_DIR$/Lutts/Gui/Tour/Canvas/canvasDraw_tags.py" />
-        <option value="$PROJECT_DIR$/Lutts/Gui/Tour/Canvas/canvasDraw_tags_after.py" />
-        <option value="$PROJECT_DIR$/Lutts/Gui/Tour/Canvas/canvasDraw_tags_thread.py" />
-        <option value="$PROJECT_DIR$/Lutts/Gui/Tools/widgets.py" />
         <option value="$PROJECT_DIR$/Lutts/Gui/Tools/big_gui.py" />
         <option value="$PROJECT_DIR$/Lutts/Gui/Tools/guimixin.py" />
         <option value="$PROJECT_DIR$/Lutts/Gui/ShellGui/shellgui.py" />
@@ -264,6 +331,11 @@
         <option value="$PROJECT_DIR$/Trash/PandasGen.py" />
         <option value="$PROJECT_DIR$/py3env/ParsGen.py" />
         <option value="$PROJECT_DIR$/py3env/PandasGen.py" />
+        <option value="$PROJECT_DIR$/GUI_PyQt5/Simple.py" />
+        <option value="$PROJECT_DIR$/GUI_PyQt5/Simple/Hints.py" />
+        <option value="$PROJECT_DIR$/GUI_PyQt5/Simple/CloseWindow.py" />
+        <option value="$PROJECT_DIR$/GUI_PyQt5/Simple/Message Box.py" />
+        <option value="$PROJECT_DIR$/GUI_PyQt5/Simple/PositionOfWindow.py" />
       </list>
     </option>
   </component>
@@ -273,11 +345,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1217" />
-    <option name="y" value="120" />
-    <option name="width" value="1293" />
-    <option name="height" value="736" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="64" />
+    <option name="y" value="-11" />
+    <option name="width" value="1303" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -294,6 +366,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,19 +378,18 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="py3env" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI_PyQt5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Trash" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI_PyQt5" type="462c0819:PsiDirectoryNode" />
+              <item name="Simple" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,11 +403,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GUI_PyQt5/Simple" />
       <recent name="$PROJECT_DIR$/py3env" />
       <recent name="$PROJECT_DIR$/Trash" />
       <recent name="$PROJECT_DIR$/Pet" />
       <recent name="E:\GitHub\Python\AlgorithmsAndDataStructures\math_operations" />
-      <recent name="E:\GitHub\Python\Lutts\Gui\Tour\Scroll" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -349,93 +422,93 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PandasGen">
-    <configuration name="NiftyPythonTricks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.PositionOfWindow">
+    <configuration name="CloseWindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI_PyQt5/Simple" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NiftyPythonTricks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI_PyQt5/Simple/CloseWindow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="PandasGen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Hints" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py3env" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI_PyQt5/Simple" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py3env/PandasGen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI_PyQt5/Simple/Hints.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Pars" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Message Box" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trash" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI_PyQt5/Simple" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trash/Pars.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI_PyQt5/Simple/Message Box.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="ParsGen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PositionOfWindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trash" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI_PyQt5/Simple" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py3env/ParsGen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI_PyQt5/Simple/PositionOfWindow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="PythonPandas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Simple" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI_PyQt5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonPandas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI_PyQt5/Simple/Simple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -654,19 +727,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.NiftyPythonTricks" />
-      <item index="1" class="java.lang.String" itemvalue="Python.PythonPandas" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Pars" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ParsGen" />
-      <item index="4" class="java.lang.String" itemvalue="Python.PandasGen" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Simple" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Hints" />
+      <item index="2" class="java.lang.String" itemvalue="Python.CloseWindow" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Message Box" />
+      <item index="4" class="java.lang.String" itemvalue="Python.PositionOfWindow" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.PandasGen" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ParsGen" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Pars" />
-        <item index="3" class="java.lang.String" itemvalue="Python.PythonPandas" />
-        <item index="4" class="java.lang.String" itemvalue="Python.NiftyPythonTricks" />
+        <item index="0" class="java.lang.String" itemvalue="Python.PositionOfWindow" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Message Box" />
+        <item index="2" class="java.lang.String" itemvalue="Python.CloseWindow" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Hints" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Simple" />
       </list>
     </recent_temporary>
   </component>
@@ -689,17 +762,16 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1217" y="120" width="1293" height="736" extended-state="0" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25902164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20398407" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08072488" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19129083" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261944" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33113673" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28995058" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -708,6 +780,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -745,41 +818,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lutts/Processes/launch/launchmodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lutts/Gui/Tools/widgets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lutts/Gui/Tour/ScrollText/scrolledtext.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lutts/Gui/Tour/buttonpics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lutts/Gui/Tools/guimixin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lutts/Gui/Tools/big_gui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -997,7 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,7 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,9 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,7 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="1096" column="26" lean-forward="true" selection-start-line="1096" selection-start-column="26" selection-end-line="1096" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,7 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,18 +1070,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-          <folding>
-            <element signature="e#71#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py3env/PandasGen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="18">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI_PyQt5/Simple/Simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#2#21#0" expanded="true" />
+            <element signature="e#20#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI_PyQt5/Simple/Hints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI_PyQt5/Simple/CloseWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI_PyQt5/Simple/Message Box.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI_PyQt5/Simple/PositionOfWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="e#2#12#0" expanded="true" />
           </folding>
         </state>
       </provider>

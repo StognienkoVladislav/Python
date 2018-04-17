@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65ad8fb1-96be-4975-8254-124e308ce666" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/PyQt/Dialogs/color_dialog.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PyQt/Dialogs/file_dialog.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PyQt/Dialogs/font_dialog.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PyQt/Dialogs/input_dialog.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CrosPlat/main.py" afterPath="$PROJECT_DIR$/CrosPlat/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -90,6 +87,7 @@
     <SUITE FILE_PATH="coverage/Python$demo_check_auto.coverage" NAME="demo_check_auto Coverage Results" MODIFIED="1499152084759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$config_label.coverage" NAME="config_label Coverage Results" MODIFIED="1498914771356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$gui4.coverage" NAME="gui4 Coverage Results" MODIFIED="1498850607655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Intro" />
+    <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1523976784279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CrosPlat" />
     <SUITE FILE_PATH="coverage/Python$viewer_thumbs_fixed.coverage" NAME="viewer-thumbs-fixed Coverage Results" MODIFIED="1499276148205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$big_gui.coverage" NAME="big_gui Coverage Results" MODIFIED="1499591760465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tools" />
     <SUITE FILE_PATH="coverage/Python$pipe2.coverage" NAME="pipe2 Coverage Results" MODIFIED="1497883810613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Processes" />
@@ -115,6 +113,7 @@
     <SUITE FILE_PATH="coverage/Python$gui3e.coverage" NAME="gui3e Coverage Results" MODIFIED="1498849082453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Intro" />
     <SUITE FILE_PATH="coverage/Python$thread_count_mutex.coverage" NAME="thread_count_mutex Coverage Results" MODIFIED="1497727650192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Threads" />
     <SUITE FILE_PATH="coverage/Python$alarm.coverage" NAME="alarm Coverage Results" MODIFIED="1499459014009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/alarms" />
+    <SUITE FILE_PATH="coverage/Python$main.coverage" NAME="main Coverage Results" MODIFIED="1523976981254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CrosPlat" />
     <SUITE FILE_PATH="coverage/Python$thread_count.coverage" NAME="thread_count Coverage Results" MODIFIED="1497725917823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Threads" />
     <SUITE FILE_PATH="coverage/Python$multi6.coverage" NAME="multi6 Coverage Results" MODIFIED="1498331175859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Processes/multiprocessing_examples" />
     <SUITE FILE_PATH="coverage/Python$menu_frm_multi2.coverage" NAME="menu_frm-multi2 Coverage Results" MODIFIED="1499282031532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/menu" />
@@ -231,7 +230,7 @@
         <entry file="file://$PROJECT_DIR$/PyQt/Dialogs/color_dialog.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="496">
-              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+              <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
               </folding>
@@ -243,7 +242,7 @@
         <entry file="file://$PROJECT_DIR$/PyQt/Dialogs/font_dialog.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="424">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
               </folding>
@@ -251,13 +250,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="file_dialog.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="file_dialog.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PyQt/Dialogs/file_dialog.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+            <state relative-caret-position="581">
+              <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CrosPlat/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="28" column="35" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -278,6 +289,8 @@
       <find>’</find>
       <find>closeEvent</find>
       <find>mouseMoveEvent</find>
+      <find>QAction</find>
+      <find>Figure</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -289,7 +302,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GUI_PyQt5/Dialogs/QInputDialog.py" />
         <option value="$PROJECT_DIR$/GUI_PyQt5/Dialogs/QColorDialog.py" />
         <option value="$PROJECT_DIR$/GUI_PyQt5/Dialogs/QFontDialog.py" />
         <option value="$PROJECT_DIR$/GUI_PyQt5/Dialogs/QFileDialog.py" />
@@ -311,7 +323,6 @@
         <option value="$PROJECT_DIR$/GUI_PyQt5/Painting/QBrush.py" />
         <option value="$PROJECT_DIR$/Tproger/EasterEggs.py" />
         <option value="$PROJECT_DIR$/CrosPlat.py" />
-        <option value="$PROJECT_DIR$/CrosPlat/main.py" />
         <option value="$PROJECT_DIR$/PyQt/utc_local.py" />
         <option value="$PROJECT_DIR$/PyQt/intro.py" />
         <option value="$PROJECT_DIR$/PyQt/icon.py" />
@@ -340,6 +351,8 @@
         <option value="$PROJECT_DIR$/PyQt/Dialogs/color_dialog.py" />
         <option value="$PROJECT_DIR$/PyQt/Dialogs/font_dialog.py" />
         <option value="$PROJECT_DIR$/PyQt/Dialogs/file_dialog.py" />
+        <option value="$PROJECT_DIR$/CrosPlat/test.py" />
+        <option value="$PROJECT_DIR$/CrosPlat/main.py" />
       </list>
     </option>
   </component>
@@ -382,13 +395,12 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="PyQt" type="462c0819:PsiDirectoryNode" />
+              <item name="CrosPlat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="PyQt" type="462c0819:PsiDirectoryNode" />
-              <item name="Dialogs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -427,7 +439,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.file_dialog">
+  <component name="RunManager" selected="Python.main">
     <configuration name="color_dialog" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -442,25 +454,6 @@
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt/Dialogs/color_dialog.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="custom_signal" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt/EventsAndSignals" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt/EventsAndSignals/custom_signal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -504,20 +497,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="input_dialog" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQt/Dialogs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CrosPlat" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQt/Dialogs/input_dialog.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CrosPlat/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CrosPlat" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CrosPlat/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -736,19 +748,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.custom_signal" />
-      <item index="1" class="java.lang.String" itemvalue="Python.input_dialog" />
-      <item index="2" class="java.lang.String" itemvalue="Python.color_dialog" />
-      <item index="3" class="java.lang.String" itemvalue="Python.font_dialog" />
-      <item index="4" class="java.lang.String" itemvalue="Python.file_dialog" />
+      <item index="0" class="java.lang.String" itemvalue="Python.color_dialog" />
+      <item index="1" class="java.lang.String" itemvalue="Python.font_dialog" />
+      <item index="2" class="java.lang.String" itemvalue="Python.file_dialog" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.file_dialog" />
-        <item index="1" class="java.lang.String" itemvalue="Python.font_dialog" />
-        <item index="2" class="java.lang.String" itemvalue="Python.color_dialog" />
-        <item index="3" class="java.lang.String" itemvalue="Python.input_dialog" />
-        <item index="4" class="java.lang.String" itemvalue="Python.custom_signal" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.file_dialog" />
+        <item index="3" class="java.lang.String" itemvalue="Python.font_dialog" />
+        <item index="4" class="java.lang.String" itemvalue="Python.color_dialog" />
       </list>
     </recent_temporary>
   </component>
@@ -833,13 +845,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GUI_PyQt5/Events&amp;Signals/Clicked.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GUI_PyQt5/Events&amp;Signals/PressEvent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1042,14 +1047,6 @@
           <folding>
             <element signature="e#1#11#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrosPlat/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1264,7 +1261,7 @@
     <entry file="file://$PROJECT_DIR$/PyQt/Dialogs/color_dialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
-          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
           </folding>
@@ -1274,7 +1271,7 @@
     <entry file="file://$PROJECT_DIR$/PyQt/Dialogs/font_dialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
           </folding>
@@ -1283,10 +1280,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PyQt/Dialogs/file_dialog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        <state relative-caret-position="581">
+          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrosPlat/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrosPlat/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

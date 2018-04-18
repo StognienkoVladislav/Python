@@ -1,0 +1,47 @@
+INFO:root:0.9503677766997879
+INFO:root:0.9608726568678714
+INFO:root:0.9938323120374665
+INFO:root:0.9955000184096712
+INFO:root:0.9956204913897357
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/vlad/PycharmProjects/testForPython/venv/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:    Hours_Studied  Test_Grade
+0             0.5          20
+1             1.0          21
+2             2.0          22
+3             3.0          23
+4             4.0          25
+5             5.0          37
+6             6.0          48
+7             7.0          56
+8             8.0          67
+9             9.0          76
+10           10.0          90
+11           11.0          89
+12           12.0          90
+INFO:root:0.9503677766997879
+INFO:root:0.9608726568678714
+INFO:root:0.9938323120374665
+INFO:root:0.9955000184096712
+INFO:root:0.9956204913897357
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/vlad/PycharmProjects/testForPython/venv/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+INFO:root:    Hours_Studied  Test_Grade
+0             0.5          20
+1             1.0          21
+2             2.0          22
+3             3.0          23
+4             4.0          25
+5             5.0          37
+6             6.0          48
+7             7.0          56
+8             8.0          67
+9             9.0          76
+10           10.0          90
+11           11.0          89
+12           12.0          90
+INFO:root:R2_Score for different degree
+INFO:root:0.9503677766997879
+INFO:root:0.9608726568678714
+INFO:root:0.9938323120374665
+INFO:root:0.9955000184096712
+INFO:root:0.9956204913897357
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/vlad/PycharmProjects/testForPython/venv/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000

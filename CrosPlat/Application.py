@@ -1,9 +1,10 @@
 
 import numpy as np
 import pandas as pd
-
+import logging
 from PyQt5.QtWidgets import QMainWindow, QTextEdit, QApplication, QAction, QFileDialog
 from matplotlib.backends.qt_compat import QtCore, QtWidgets, is_pyqt5
+
 if is_pyqt5():
     from matplotlib.backends.backend_qt5agg import (
         FigureCanvas, NavigationToolbar2QT as NavigationToolbar)
@@ -16,11 +17,13 @@ from sklearn.metrics import r2_score
 from views import basic_consider, consider_for_polynomial_degrees
 
 
+logging.basicConfig(filename='logging.log', level=logging.DEBUG)
+
 class ApplicationWindow(QMainWindow):
     def __init__(self):
 
         df = pd.read_csv('Grade_Set_2.csv')
-
+        logging.info(df)
         super(ApplicationWindow, self).__init__()
         self._main = QtWidgets.QWidget()
         self.setCentralWidget(self._main)

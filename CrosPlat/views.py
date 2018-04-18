@@ -3,7 +3,9 @@ import sklearn.linear_model as lm
 import numpy as np
 import pandas as pd
 from sklearn.metrics import r2_score
+import logging
 
+logging.basicConfig(filename='logging.log', level=logging.DEBUG)
 
 def basic_consider(df):
     lr = lm.LinearRegression()
@@ -19,12 +21,13 @@ def consider_for_polynomial_degrees(_dynamic_ax, df):
     lr = lm.LinearRegression()
     x = df.Hours_Studied
     y = df.Test_Grade
-
+    logging.info("R2_Score for different degree")
     for deg in [1, 2, 3, 4, 5]:
         lr.fit(np.vander(x, deg + 1), y)
         y_lr = lr.predict(np.vander(x, deg + 1))
         _dynamic_ax.plot(x, y_lr, label='degree ' + str(deg))
         _dynamic_ax.legend(loc=2)
+        logging.info(r2_score(y, y_lr))
         print(r2_score(y, y_lr))
 
 

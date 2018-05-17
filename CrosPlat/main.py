@@ -1,7 +1,7 @@
 import sys
 
 from PyQt5.QtWidgets import QApplication
-from CrosPlat.Application import ApplicationWindow
+from Application import ApplicationWindow
 from Application import ApplicationWindow
 
 if __name__ == "__main__":

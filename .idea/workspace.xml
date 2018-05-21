@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65ad8fb1-96be-4975-8254-124e308ce666" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/string_formatting.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/underscores_dunders.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/epidemic.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/epidemic_up.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,6 +80,7 @@
     <SUITE FILE_PATH="coverage/Python$grid5.coverage" NAME="grid5 Coverage Results" MODIFIED="1499423004659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/Grid" />
     <SUITE FILE_PATH="coverage/Python$gui6c.coverage" NAME="gui6c Coverage Results" MODIFIED="1498903130493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Intro" />
     <SUITE FILE_PATH="coverage/Python$gui1f.coverage" NAME="gui1f Coverage Results" MODIFIED="1498675561139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Intro" />
+    <SUITE FILE_PATH="coverage/Python$epidemic_up.coverage" NAME="epidemic_up Coverage Results" MODIFIED="1526912387935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$thread_add_synch.coverage" NAME="thread_add_synch Coverage Results" MODIFIED="1497795708751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Threads" />
     <SUITE FILE_PATH="coverage/Python$imgCanvas2.coverage" NAME="imgCanvas2 Coverage Results" MODIFIED="1499241462476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$absolute.coverage" NAME="absolute Coverage Results" MODIFIED="1523969362384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt/LayaoutManagement" />
@@ -203,6 +204,7 @@
     <SUITE FILE_PATH="coverage/Python$demoAll_frm.coverage" NAME="demoAll-frm Coverage Results" MODIFIED="1499179402934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$mainwindow.coverage" NAME="mainwindow Coverage Results" MODIFIED="1524043602704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt/MenusAndToolbars" />
     <SUITE FILE_PATH="coverage/Python$viewer_thumbs.coverage" NAME="viewer_thumbs Coverage Results" MODIFIED="1499251305418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
+    <SUITE FILE_PATH="coverage/Python$epidemic.coverage" NAME="epidemic Coverage Results" MODIFIED="1526913108550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$viewer_dir.coverage" NAME="viewer-dir Coverage Results" MODIFIED="1499249789313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$gui5.coverage" NAME="gui5 Coverage Results" MODIFIED="1498852678682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Intro" />
     <SUITE FILE_PATH="coverage/Python$simple_menu.coverage" NAME="simple_menu Coverage Results" MODIFIED="1523967277939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt/MenusAndToolbars" />
@@ -263,12 +265,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="string_formatting.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="string_formatting.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/string_formatting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="epidemic.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/epidemic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="epidemic_up.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/epidemic_up.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -295,6 +321,7 @@
       <find>setGeo</find>
       <find>_static_ax</find>
       <find>showDialog</find>
+      <find>pri</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -306,8 +333,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PyQt/center.py" />
-        <option value="$PROJECT_DIR$/PyQt/MenusAndToolbars/statusbar.py" />
         <option value="$PROJECT_DIR$/PyQt/MenusAndToolbars/simple_menu.py" />
         <option value="$PROJECT_DIR$/PyQt/MenusAndToolbars/submenu.py" />
         <option value="$PROJECT_DIR$/PyQt/MenusAndToolbars/checkmenu.py" />
@@ -357,6 +382,8 @@
         <option value="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/context_manager.py" />
         <option value="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/underscores_dunders.py" />
         <option value="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/string_formatting.py" />
+        <option value="$PROJECT_DIR$/epidemic_up.py" />
+        <option value="$PROJECT_DIR$/epidemic.py" />
       </list>
     </option>
   </component>
@@ -394,17 +421,6 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonTricks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonTricks" type="462c0819:PsiDirectoryNode" />
-              <item name="PatternsForCleaningPython" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -447,26 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.string_formatting">
-    <configuration name="base" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/ComplacentCommaPlacement" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/complacent_comma_placement.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.epidemic">
     <configuration name="context_manager" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -486,22 +483,41 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="never_fail_assert" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="epidemic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/CoveringByAssertions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/CoveringByAssertions/never_fail_assert.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/epidemic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="epidemic_up" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/epidemic_up.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
@@ -756,19 +772,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.never_fail_assert" />
-      <item index="1" class="java.lang.String" itemvalue="Python.base" />
-      <item index="2" class="java.lang.String" itemvalue="Python.context_manager" />
-      <item index="3" class="java.lang.String" itemvalue="Python.underscores_dunders" />
-      <item index="4" class="java.lang.String" itemvalue="Python.string_formatting" />
+      <item index="0" class="java.lang.String" itemvalue="Python.context_manager" />
+      <item index="1" class="java.lang.String" itemvalue="Python.underscores_dunders" />
+      <item index="2" class="java.lang.String" itemvalue="Python.string_formatting" />
+      <item index="3" class="java.lang.String" itemvalue="Python.epidemic" />
+      <item index="4" class="java.lang.String" itemvalue="Python.epidemic_up" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.string_formatting" />
-        <item index="1" class="java.lang.String" itemvalue="Python.underscores_dunders" />
-        <item index="2" class="java.lang.String" itemvalue="Python.context_manager" />
-        <item index="3" class="java.lang.String" itemvalue="Python.base" />
-        <item index="4" class="java.lang.String" itemvalue="Python.never_fail_assert" />
+        <item index="0" class="java.lang.String" itemvalue="Python.epidemic" />
+        <item index="1" class="java.lang.String" itemvalue="Python.epidemic_up" />
+        <item index="2" class="java.lang.String" itemvalue="Python.epidemic_up" />
+        <item index="3" class="java.lang.String" itemvalue="Python.string_formatting" />
+        <item index="4" class="java.lang.String" itemvalue="Python.underscores_dunders" />
       </list>
     </recent_temporary>
   </component>
@@ -879,20 +895,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PyQt/EventsAndSignals/event_source.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyQt/EventsAndSignals/custom_signal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PyQt/Dialogs/input_dialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1164,9 +1166,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/string_formatting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epidemic_up.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epidemic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

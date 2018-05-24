@@ -11,15 +11,18 @@ def algor(n, i):
         ultra_check - массив с нодами, которые получили 1 пакет
         mass - изначальный нулевой массив нод
         X - кол-во рандомных узлов
+        iterr - кол-во итераций в циклах
         """
         ultra_check = []
         mass = [0]*n
-
         X = 2
+        iterr = 0
+
         # Пока все ноды не получат пакет данных
         while len(ultra_check) != len(mass):
-
+            iterr += 1
             for _ in range(X):
+                iterr += 1
                 # Рандомно выбираем Х-кол-во нод, которым передадим данные, исключая текущую ноду
                 try:
                     r = random.choice([x for x in range(len(mass)) if x not in ultra_check])
@@ -28,7 +31,7 @@ def algor(n, i):
                 # Если все ноды уже заполненны и не кому передавать данные - выходим из цикла
                 except:
                     break
-
+        print("Кол-во итераций: {}".format(iterr))
         # Если сумма значенний в массиве равна N(кол-во нод), то все ноды закрыты
         # инкрементируем счетчик
         if sum(mass) == n:
@@ -46,5 +49,5 @@ def algor(n, i):
 
 
 if __name__ == '__main__':
-    algor(20, 1000)
+    algor(20, 10)
     #algor(int(sys.argv[1]), int(sys.argv[2]))

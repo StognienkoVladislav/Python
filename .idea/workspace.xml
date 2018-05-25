@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65ad8fb1-96be-4975-8254-124e308ce666" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/func_with_ARGS_KWARGS.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/unpacking_function_argument.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +18,7 @@
     <SUITE FILE_PATH="coverage/Python$event_source.coverage" NAME="event_source Coverage Results" MODIFIED="1523972287423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt/EventsAndSignals" />
     <SUITE FILE_PATH="coverage/Python$patterns_for_cleaner_python.coverage" NAME="patterns_for_cleaner_python Coverage Results" MODIFIED="1526548998622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks" />
     <SUITE FILE_PATH="coverage/Python$toplevel0.coverage" NAME="toplevel0 Coverage Results" MODIFIED="1498964335489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
-    <SUITE FILE_PATH="coverage/Python$func_with_ARGS_KWARGS.coverage" NAME="func_with_ARGS_KWARGS Coverage Results" MODIFIED="1527255530835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/EffectiveFunctions" />
+    <SUITE FILE_PATH="coverage/Python$func_with_ARGS_KWARGS.coverage" NAME="func_with_ARGS_KWARGS Coverage Results" MODIFIED="1527256044230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/EffectiveFunctions" />
     <SUITE FILE_PATH="coverage/Python$queuetest_gui_class.coverage" NAME="queuetest-gui-class Coverage Results" MODIFIED="1499856618779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tools" />
     <SUITE FILE_PATH="coverage/Python$font_dialog.coverage" NAME="font_dialog Coverage Results" MODIFIED="1523975019533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt/Dialogs" />
     <SUITE FILE_PATH="coverage/Python$canvasDraw.coverage" NAME="canvasDraw Coverage Results" MODIFIED="1499370591173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/Canvas" />
@@ -191,6 +191,7 @@
     <SUITE FILE_PATH="coverage/Python$gui5b.coverage" NAME="gui5b Coverage Results" MODIFIED="1498900955131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Intro" />
     <SUITE FILE_PATH="coverage/Python$dlg_recursive.coverage" NAME="dlg_recursive Coverage Results" MODIFIED="1499053800857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$sum3.coverage" NAME="sum3 Coverage Results" MODIFIED="1500050280377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgorithmsAndDataStructures/Analysis" />
+    <SUITE FILE_PATH="coverage/Python$unpacking_function_argument.coverage" NAME="unpacking_function_argument Coverage Results" MODIFIED="1527256856024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/EffectiveFunctions" />
     <SUITE FILE_PATH="coverage/Python$imgCanvas.coverage" NAME="imgCanvas Coverage Results" MODIFIED="1499241220464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$gui1e.coverage" NAME="gui1e Coverage Results" MODIFIED="1498670380999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Intro" />
     <SUITE FILE_PATH="coverage/Python$demoDlg_print.coverage" NAME="demoDlg_print Coverage Results" MODIFIED="1499023844472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
@@ -290,11 +291,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="func_with_ARGS_KWARGS.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="func_with_ARGS_KWARGS.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/func_with_ARGS_KWARGS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="531">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unpacking_function_argument.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/unpacking_function_argument.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -346,7 +357,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PyQt/MenusAndToolbars/all_menus.py" />
         <option value="$PROJECT_DIR$/PyQt/MenusAndToolbars/mainwindow.py" />
         <option value="$PROJECT_DIR$/PyQt/LayaoutManagement/absolute.py" />
         <option value="$PROJECT_DIR$/PyQt/LayaoutManagement/buttons.py" />
@@ -397,6 +407,7 @@
         <option value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/lambdas.py" />
         <option value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/decorators.py" />
         <option value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/func_with_ARGS_KWARGS.py" />
+        <option value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/unpacking_function_argument.py" />
       </list>
     </option>
   </component>
@@ -487,7 +498,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.func_with_ARGS_KWARGS">
+  <component name="RunManager" selected="Python.unpacking_function_argument">
     <configuration name="decorators" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -564,20 +575,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="string_formatting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="unpacking_function_argument" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/string_formatting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/unpacking_function_argument.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -796,19 +807,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.string_formatting" />
-      <item index="1" class="java.lang.String" itemvalue="Python.simple_sample" />
-      <item index="2" class="java.lang.String" itemvalue="Python.lambdas" />
-      <item index="3" class="java.lang.String" itemvalue="Python.decorators" />
-      <item index="4" class="java.lang.String" itemvalue="Python.func_with_ARGS_KWARGS" />
+      <item index="0" class="java.lang.String" itemvalue="Python.simple_sample" />
+      <item index="1" class="java.lang.String" itemvalue="Python.lambdas" />
+      <item index="2" class="java.lang.String" itemvalue="Python.decorators" />
+      <item index="3" class="java.lang.String" itemvalue="Python.func_with_ARGS_KWARGS" />
+      <item index="4" class="java.lang.String" itemvalue="Python.unpacking_function_argument" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.func_with_ARGS_KWARGS" />
-        <item index="1" class="java.lang.String" itemvalue="Python.decorators" />
-        <item index="2" class="java.lang.String" itemvalue="Python.lambdas" />
-        <item index="3" class="java.lang.String" itemvalue="Python.simple_sample" />
-        <item index="4" class="java.lang.String" itemvalue="Python.string_formatting" />
+        <item index="0" class="java.lang.String" itemvalue="Python.unpacking_function_argument" />
+        <item index="1" class="java.lang.String" itemvalue="Python.func_with_ARGS_KWARGS" />
+        <item index="2" class="java.lang.String" itemvalue="Python.decorators" />
+        <item index="3" class="java.lang.String" itemvalue="Python.lambdas" />
+        <item index="4" class="java.lang.String" itemvalue="Python.simple_sample" />
       </list>
     </recent_temporary>
   </component>
@@ -919,13 +930,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PyQt/Base/quitbutton.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PyQt/Base/messagebox.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1217,8 +1221,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/func_with_ARGS_KWARGS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="531">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/unpacking_function_argument.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>

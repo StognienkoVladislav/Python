@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65ad8fb1-96be-4975-8254-124e308ce666" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/simple_sample.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/lambdas.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -171,6 +171,7 @@
     <SUITE FILE_PATH="coverage/Python$multi6.coverage" NAME="multi6 Coverage Results" MODIFIED="1498331175859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Processes/multiprocessing_examples" />
     <SUITE FILE_PATH="coverage/Python$menu_frm_multi2.coverage" NAME="menu_frm-multi2 Coverage Results" MODIFIED="1499282031532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/menu" />
     <SUITE FILE_PATH="coverage/Python$optionmenu.coverage" NAME="optionmenu Coverage Results" MODIFIED="1499283223567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/menu" />
+    <SUITE FILE_PATH="coverage/Python$lambdas.coverage" NAME="lambdas Coverage Results" MODIFIED="1527254389938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/EffectiveFunctions" />
     <SUITE FILE_PATH="coverage/Python$Unittests_in_guimixin.coverage" NAME="Unittests in guimixin Coverage Results" MODIFIED="1499591732854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tools" />
     <SUITE FILE_PATH="coverage/Python$gui6b.coverage" NAME="gui6b Coverage Results" MODIFIED="1498902886414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Intro" />
     <SUITE FILE_PATH="coverage/Python$bigpy_tree.coverage" NAME="bigpy_tree Coverage Results" MODIFIED="1498397076046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Filetools" />
@@ -257,11 +258,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simple_sample.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="simple_sample.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/simple_sample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+            <state relative-caret-position="531">
+              <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lambdas.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/lambdas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -313,7 +324,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PyQt/MenusAndToolbars/submenu.py" />
         <option value="$PROJECT_DIR$/PyQt/MenusAndToolbars/checkmenu.py" />
         <option value="$PROJECT_DIR$/PyQt/MenusAndToolbars/context_menu.py" />
         <option value="$PROJECT_DIR$/PyQt/MenusAndToolbars/all_menus.py" />
@@ -364,6 +374,7 @@
         <option value="$PROJECT_DIR$/epidemic.py" />
         <option value="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/string_formatting.py" />
         <option value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/simple_sample.py" />
+        <option value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/lambdas.py" />
       </list>
     </option>
   </component>
@@ -454,7 +465,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.simple_sample">
+  <component name="RunManager" selected="Python.lambdas">
     <configuration name="epidemic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -493,6 +504,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="lambdas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/lambdas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="simple_sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -526,25 +556,6 @@
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/string_formatting.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="underscores_dunders" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/underscores_dunders.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -763,18 +774,18 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.underscores_dunders" />
-      <item index="1" class="java.lang.String" itemvalue="Python.string_formatting" />
-      <item index="2" class="java.lang.String" itemvalue="Python.epidemic" />
-      <item index="3" class="java.lang.String" itemvalue="Python.epidemic_up" />
-      <item index="4" class="java.lang.String" itemvalue="Python.simple_sample" />
+      <item index="0" class="java.lang.String" itemvalue="Python.string_formatting" />
+      <item index="1" class="java.lang.String" itemvalue="Python.epidemic" />
+      <item index="2" class="java.lang.String" itemvalue="Python.epidemic_up" />
+      <item index="3" class="java.lang.String" itemvalue="Python.simple_sample" />
+      <item index="4" class="java.lang.String" itemvalue="Python.lambdas" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.simple_sample" />
-        <item index="1" class="java.lang.String" itemvalue="Python.string_formatting" />
-        <item index="2" class="java.lang.String" itemvalue="Python.epidemic" />
-        <item index="3" class="java.lang.String" itemvalue="Python.epidemic_up" />
+        <item index="0" class="java.lang.String" itemvalue="Python.lambdas" />
+        <item index="1" class="java.lang.String" itemvalue="Python.simple_sample" />
+        <item index="2" class="java.lang.String" itemvalue="Python.string_formatting" />
+        <item index="3" class="java.lang.String" itemvalue="Python.epidemic" />
         <item index="4" class="java.lang.String" itemvalue="Python.epidemic_up" />
       </list>
     </recent_temporary>
@@ -886,13 +897,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PyQt/Dialogs/color_dialog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PyQt/Dialogs/font_dialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -1175,8 +1179,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/simple_sample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+        <state relative-caret-position="531">
+          <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/lambdas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>

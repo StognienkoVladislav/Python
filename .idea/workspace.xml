@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65ad8fb1-96be-4975-8254-124e308ce666" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/lambdas.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/decorators.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -180,6 +180,7 @@
     <SUITE FILE_PATH="coverage/Python$simple_sample.coverage" NAME="simple_sample Coverage Results" MODIFIED="1527253613573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/EffectiveFunctions" />
     <SUITE FILE_PATH="coverage/Python$gui3d.coverage" NAME="gui3d Coverage Results" MODIFIED="1498848000773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Intro" />
     <SUITE FILE_PATH="coverage/Python$dlg_old.coverage" NAME="dlg_old Coverage Results" MODIFIED="1499052535669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
+    <SUITE FILE_PATH="coverage/Python$decorators.coverage" NAME="decorators Coverage Results" MODIFIED="1527255212095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/EffectiveFunctions" />
     <SUITE FILE_PATH="coverage/Python$quitbutton.coverage" NAME="quitbutton Coverage Results" MODIFIED="1523965985161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
     <SUITE FILE_PATH="coverage/Python$dig1_pyw__1_.coverage" NAME="dig1.pyw (1) Coverage Results" MODIFIED="1499019683483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$fork1.coverage" NAME="fork1 Coverage Results" MODIFIED="1497691315076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Processes" />
@@ -262,17 +263,27 @@
         <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/simple_sample.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="531">
-              <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+              <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lambdas.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lambdas.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/lambdas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
+            <state relative-caret-position="504">
               <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decorators.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/decorators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -324,7 +335,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PyQt/MenusAndToolbars/checkmenu.py" />
         <option value="$PROJECT_DIR$/PyQt/MenusAndToolbars/context_menu.py" />
         <option value="$PROJECT_DIR$/PyQt/MenusAndToolbars/all_menus.py" />
         <option value="$PROJECT_DIR$/PyQt/MenusAndToolbars/mainwindow.py" />
@@ -375,6 +385,7 @@
         <option value="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/string_formatting.py" />
         <option value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/simple_sample.py" />
         <option value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/lambdas.py" />
+        <option value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/decorators.py" />
       </list>
     </option>
   </component>
@@ -465,7 +476,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lambdas">
+  <component name="RunManager" selected="Python.decorators">
+    <configuration name="decorators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/decorators.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="epidemic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -482,25 +512,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/epidemic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="epidemic_up" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/epidemic_up.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
@@ -776,17 +787,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.string_formatting" />
       <item index="1" class="java.lang.String" itemvalue="Python.epidemic" />
-      <item index="2" class="java.lang.String" itemvalue="Python.epidemic_up" />
-      <item index="3" class="java.lang.String" itemvalue="Python.simple_sample" />
-      <item index="4" class="java.lang.String" itemvalue="Python.lambdas" />
+      <item index="2" class="java.lang.String" itemvalue="Python.simple_sample" />
+      <item index="3" class="java.lang.String" itemvalue="Python.lambdas" />
+      <item index="4" class="java.lang.String" itemvalue="Python.decorators" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.lambdas" />
-        <item index="1" class="java.lang.String" itemvalue="Python.simple_sample" />
-        <item index="2" class="java.lang.String" itemvalue="Python.string_formatting" />
-        <item index="3" class="java.lang.String" itemvalue="Python.epidemic" />
-        <item index="4" class="java.lang.String" itemvalue="Python.epidemic_up" />
+        <item index="0" class="java.lang.String" itemvalue="Python.decorators" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lambdas" />
+        <item index="2" class="java.lang.String" itemvalue="Python.simple_sample" />
+        <item index="3" class="java.lang.String" itemvalue="Python.string_formatting" />
+        <item index="4" class="java.lang.String" itemvalue="Python.epidemic" />
       </list>
     </recent_temporary>
   </component>
@@ -897,13 +908,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PyQt/Dialogs/font_dialog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CrosPlat/test.py" />
     <entry file="file://$PROJECT_DIR$/PyQt/Base/quitbutton.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1180,15 +1184,23 @@
     <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/simple_sample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
-          <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/lambdas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
+        <state relative-caret-position="504">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding />
         </state>
       </provider>

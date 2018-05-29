@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65ad8fb1-96be-4975-8254-124e308ce666" name="Default" comment="">
+<<<<<<< HEAD
+=======
+      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/abstract_classes.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/class_vs_instance_variable_pitfalls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/cloning_objects.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/comparisons.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/instance_class_static_methods.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/own_exception_classes.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/string_conversion.py" />
+>>>>>>> 78b2eff2595fa03a702ee815d429b362aa0606cd
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/decorators.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/func_with_ARGS_KWARGS.py" afterPath="" />
@@ -219,7 +229,11 @@
     <SUITE FILE_PATH="coverage/Python$demoAll_frm.coverage" NAME="demoAll-frm Coverage Results" MODIFIED="1499179402934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$mainwindow.coverage" NAME="mainwindow Coverage Results" MODIFIED="1524043602704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt/MenusAndToolbars" />
     <SUITE FILE_PATH="coverage/Python$viewer_thumbs.coverage" NAME="viewer_thumbs Coverage Results" MODIFIED="1499251305418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/Python$instance_class_static_methods.coverage" NAME="instance_class_static_methods Coverage Results" MODIFIED="1527591375796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP" />
+=======
+    <SUITE FILE_PATH="coverage/Python$instance_class_static_methods.coverage" NAME="instance_class_static_methods Coverage Results" MODIFIED="1527586786584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP" />
+>>>>>>> 78b2eff2595fa03a702ee815d429b362aa0606cd
     <SUITE FILE_PATH="coverage/Python$epidemic.coverage" NAME="epidemic Coverage Results" MODIFIED="1527151395601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$viewer_dir.coverage" NAME="viewer-dir Coverage Results" MODIFIED="1499249789313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$gui5.coverage" NAME="gui5 Coverage Results" MODIFIED="1498852678682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Intro" />
@@ -285,22 +299,35 @@
         <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/class_vs_instance_variable_pitfalls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
+<<<<<<< HEAD
               <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+=======
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+>>>>>>> 78b2eff2595fa03a702ee815d429b362aa0606cd
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="instance_class_static_methods.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/instance_class_static_methods.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="739">
               <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+=======
+      <file leaf-file-name="instance_class_static_methods.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/instance_class_static_methods.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+>>>>>>> 78b2eff2595fa03a702ee815d429b362aa0606cd
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="comparisons.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../DataAnalysis/Kurs/Classes&amp;OOP/comparisons.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -311,6 +338,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 78b2eff2595fa03a702ee815d429b362aa0606cd
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -441,6 +470,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="PythonTricks" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonTricks" type="462c0819:PsiDirectoryNode" />
+              <item name="Classes&amp;OOP" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 78b2eff2595fa03a702ee815d429b362aa0606cd
           </expand>
           <select />
         </subPane>
@@ -837,7 +875,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28031147" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259177" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23136818" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24460432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24460432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 78b2eff2595fa03a702ee815d429b362aa0606cd
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4161594" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -913,6 +955,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/PyQt/MenusAndToolbars/checkmenu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 78b2eff2595fa03a702ee815d429b362aa0606cd
     <entry file="file://$PROJECT_DIR$/PyQt/Dialogs/file_dialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1206,13 +1258,18 @@
     <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/class_vs_instance_variable_pitfalls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
+<<<<<<< HEAD
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+=======
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+>>>>>>> 78b2eff2595fa03a702ee815d429b362aa0606cd
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/instance_class_static_methods.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="739">
           <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
@@ -1223,6 +1280,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="248">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+>>>>>>> 78b2eff2595fa03a702ee815d429b362aa0606cd
           <folding />
         </state>
       </provider>

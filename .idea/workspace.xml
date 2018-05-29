@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65ad8fb1-96be-4975-8254-124e308ce666" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/unpacking_function_argument.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/decorators.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/func_with_ARGS_KWARGS.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/lambdas.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/simple_sample.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/unpacking_function_argument.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,6 +32,7 @@
     <SUITE FILE_PATH="coverage/Python$NiftyPythonTricks.coverage" NAME="NiftyPythonTricks Coverage Results" MODIFIED="1501661669430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$demoScale.coverage" NAME="demoScale Coverage Results" MODIFIED="1499167590828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$rad.coverage" NAME="rad Coverage Results" MODIFIED="1499772500884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tools" />
+    <SUITE FILE_PATH="coverage/Python$comparisons.coverage" NAME="comparisons Coverage Results" MODIFIED="1527582252516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP" />
     <SUITE FILE_PATH="coverage/Python$grid5c.coverage" NAME="grid5c Coverage Results" MODIFIED="1499458211890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/Grid" />
     <SUITE FILE_PATH="coverage/Python$Defs.coverage" NAME="Defs Coverage Results" MODIFIED="1501522341899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BaseMustHave" />
     <SUITE FILE_PATH="coverage/Python$center.coverage" NAME="center Coverage Results" MODIFIED="1523966639044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
@@ -35,6 +40,7 @@
     <SUITE FILE_PATH="coverage/Python$guiStreams.coverage" NAME="guiStreams Coverage Results" MODIFIED="1499769006900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tools" />
     <SUITE FILE_PATH="coverage/Python$otherSum.coverage" NAME="otherSum Coverage Results" MODIFIED="1500049847076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgorithmsAndDataStructures/Analysis" />
     <SUITE FILE_PATH="coverage/Python$gui2.coverage" NAME="gui2 Coverage Results" MODIFIED="1498831667599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Intro" />
+    <SUITE FILE_PATH="coverage/Python$string_conversion.coverage" NAME="string_conversion Coverage Results" MODIFIED="1527582998313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP" />
     <SUITE FILE_PATH="coverage/Python$chris.coverage" NAME="chris Coverage Results" MODIFIED="1526306111831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$pipe_thread.coverage" NAME="pipe-thread Coverage Results" MODIFIED="1497884622186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Processes" />
     <SUITE FILE_PATH="coverage/Python$canvas1.coverage" NAME="canvas1 Coverage Results" MODIFIED="1499339975873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/Canvas" />
@@ -73,6 +79,7 @@
     <SUITE FILE_PATH="coverage/Python$scrolledtext.coverage" NAME="scrolledtext Coverage Results" MODIFIED="1499327394937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/Listbox&amp;Scrollbar" />
     <SUITE FILE_PATH="coverage/Python$statusbar.coverage" NAME="statusbar Coverage Results" MODIFIED="1524043612862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt/MenusAndToolbars" />
     <SUITE FILE_PATH="coverage/Python$bigpy_path.coverage" NAME="bigpy_path Coverage Results" MODIFIED="1498399693615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Filetools" />
+    <SUITE FILE_PATH="coverage/Python$class_vs_instance_variable_pitfalls.coverage" NAME="class_vs_instance_variable_pitfalls Coverage Results" MODIFIED="1527586346227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP" />
     <SUITE FILE_PATH="coverage/Python$radactions.coverage" NAME="radactions Coverage Results" MODIFIED="1499772521623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tools" />
     <SUITE FILE_PATH="coverage/Python$queuetest.coverage" NAME="queuetest Coverage Results" MODIFIED="1497796783554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Threads" />
     <SUITE FILE_PATH="coverage/Python$packdlg.coverage" NAME="packdlg Coverage Results" MODIFIED="1499709019471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/ShellGui" />
@@ -105,6 +112,7 @@
     <SUITE FILE_PATH="coverage/Python$example.coverage" NAME="example Coverage Results" MODIFIED="1524818811590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SA" />
     <SUITE FILE_PATH="coverage/Python$menuDemo.coverage" NAME="menuDemo Coverage Results" MODIFIED="1499285431835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/menu" />
     <SUITE FILE_PATH="coverage/Python$DecoratorExample.coverage" NAME="DecoratorExample Coverage Results" MODIFIED="1501583499593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BaseMustHave" />
+    <SUITE FILE_PATH="coverage/Python$own_exception_classes.coverage" NAME="own_exception_classes Coverage Results" MODIFIED="1527583385647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP" />
     <SUITE FILE_PATH="coverage/Python$queuetest_gui.coverage" NAME="queuetest-gui Coverage Results" MODIFIED="1499856063437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tools" />
     <SUITE FILE_PATH="coverage/Python$Gates.coverage" NAME="Gates Coverage Results" MODIFIED="1500048643011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AlgorithmsAndDataStructures/math_operations" />
     <SUITE FILE_PATH="coverage/Python$PythonPandas.coverage" NAME="PythonPandas Coverage Results" MODIFIED="1501662887681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -123,6 +131,7 @@
     <SUITE FILE_PATH="coverage/Python$scrolledcanvas.coverage" NAME="scrolledcanvas Coverage Results" MODIFIED="1499342547153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/Canvas" />
     <SUITE FILE_PATH="coverage/Python$intro.coverage" NAME="intro Coverage Results" MODIFIED="1523964597362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt" />
     <SUITE FILE_PATH="coverage/Python$menu_frm_multi.coverage" NAME="menu_frm-multi Coverage Results" MODIFIED="1499281611087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/menu" />
+    <SUITE FILE_PATH="coverage/Python$abstract_classes.coverage" NAME="abstract_classes Coverage Results" MODIFIED="1527585355597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP" />
     <SUITE FILE_PATH="coverage/Python$socket_preview_progs.coverage" NAME="socket_preview_progs Coverage Results" MODIFIED="1498251494094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Processes/sockets" />
     <SUITE FILE_PATH="coverage/Python$alarm_hide.coverage" NAME="alarm-hide Coverage Results" MODIFIED="1499459488042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/alarms" />
     <SUITE FILE_PATH="coverage/Python$grid5b.coverage" NAME="grid5b Coverage Results" MODIFIED="1499423738847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/Grid" />
@@ -194,9 +203,11 @@
     <SUITE FILE_PATH="coverage/Python$unpacking_function_argument.coverage" NAME="unpacking_function_argument Coverage Results" MODIFIED="1527256856024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/EffectiveFunctions" />
     <SUITE FILE_PATH="coverage/Python$imgCanvas.coverage" NAME="imgCanvas Coverage Results" MODIFIED="1499241220464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$gui1e.coverage" NAME="gui1e Coverage Results" MODIFIED="1498670380999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Intro" />
+    <SUITE FILE_PATH="coverage/Python$named_tuples.coverage" NAME="named_tuples Coverage Results" MODIFIED="1527585962290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP" />
     <SUITE FILE_PATH="coverage/Python$demoDlg_print.coverage" NAME="demoDlg_print Coverage Results" MODIFIED="1499023844472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$never_fail_assert.coverage" NAME="never_fail_assert Coverage Results" MODIFIED="1526554931880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/CoveringByAssertions" />
     <SUITE FILE_PATH="coverage/Python$demoAll_prg_multi.coverage" NAME="demoAll-prg-multi Coverage Results" MODIFIED="1499189672931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
+    <SUITE FILE_PATH="coverage/Python$cloning_objects.coverage" NAME="cloning_objects Coverage Results" MODIFIED="1527584154917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP" />
     <SUITE FILE_PATH="coverage/Python$canvasDraw_tags_thread.coverage" NAME="canvasDraw_tags_thread Coverage Results" MODIFIED="1499514157698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/Canvas" />
     <SUITE FILE_PATH="coverage/Python$grid4.coverage" NAME="grid4 Coverage Results" MODIFIED="1499422747900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour/Grid" />
     <SUITE FILE_PATH="coverage/Python$thread_classes.coverage" NAME="thread_classes Coverage Results" MODIFIED="1497792499839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Threads" />
@@ -208,6 +219,7 @@
     <SUITE FILE_PATH="coverage/Python$demoAll_frm.coverage" NAME="demoAll-frm Coverage Results" MODIFIED="1499179402934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$mainwindow.coverage" NAME="mainwindow Coverage Results" MODIFIED="1524043602704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyQt/MenusAndToolbars" />
     <SUITE FILE_PATH="coverage/Python$viewer_thumbs.coverage" NAME="viewer_thumbs Coverage Results" MODIFIED="1499251305418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
+    <SUITE FILE_PATH="coverage/Python$instance_class_static_methods.coverage" NAME="instance_class_static_methods Coverage Results" MODIFIED="1527591375796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP" />
     <SUITE FILE_PATH="coverage/Python$epidemic.coverage" NAME="epidemic Coverage Results" MODIFIED="1527151395601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$viewer_dir.coverage" NAME="viewer-dir Coverage Results" MODIFIED="1499249789313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Tour" />
     <SUITE FILE_PATH="coverage/Python$gui5.coverage" NAME="gui5 Coverage Results" MODIFIED="1498852678682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lutts/Gui/Intro" />
@@ -219,106 +231,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="epidemic.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/epidemic.py">
+      <file leaf-file-name="comparisons.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/comparisons.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="complacent_comma_placement.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/complacent_comma_placement.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="162">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="context_manager.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/context_manager.py">
+      <file leaf-file-name="string_conversion.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/string_conversion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="41" column="12" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+            <state relative-caret-position="162">
+              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="string_formatting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/string_formatting.py">
+      <file leaf-file-name="own_exception_classes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/own_exception_classes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="721">
-              <caret line="68" column="7" lean-forward="false" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simple_sample.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/simple_sample.py">
+      <file leaf-file-name="cloning_objects.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/cloning_objects.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+            <state relative-caret-position="464">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lambdas.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/lambdas.py">
+      <file leaf-file-name="abstract_classes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/abstract_classes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="464">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="decorators.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/decorators.py">
+      <file leaf-file-name="class_vs_instance_variable_pitfalls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/class_vs_instance_variable_pitfalls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="instance_class_static_methods.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/instance_class_static_methods.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="739">
-              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="func_with_ARGS_KWARGS.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/func_with_ARGS_KWARGS.py">
+      <file leaf-file-name="comparisons.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../DataAnalysis/Kurs/Classes&amp;OOP/comparisons.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unpacking_function_argument.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/unpacking_function_argument.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="epidemic_up.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/epidemic_up.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -353,18 +341,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PyQt/MenusAndToolbars/mainwindow.py" />
-        <option value="$PROJECT_DIR$/PyQt/LayaoutManagement/absolute.py" />
-        <option value="$PROJECT_DIR$/PyQt/LayaoutManagement/buttons.py" />
-        <option value="$PROJECT_DIR$/PyQt/LayaoutManagement/calculator.py" />
-        <option value="$PROJECT_DIR$/PyQt/LayaoutManagement/review.py" />
-        <option value="$PROJECT_DIR$/PyQt/EventsAndSignals/sig_slot.py" />
-        <option value="$PROJECT_DIR$/PyQt/EventsAndSignals/escape.py" />
-        <option value="$PROJECT_DIR$/PyQt/EventsAndSignals/eventobject.py" />
         <option value="$PROJECT_DIR$/PyQt/EventsAndSignals/event_sourece.py" />
         <option value="$PROJECT_DIR$/PyQt/EventsAndSignals/event_source.py" />
         <option value="$PROJECT_DIR$/PyQt/EventsAndSignals/custom_signal.py" />
@@ -408,6 +389,14 @@
         <option value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/decorators.py" />
         <option value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/func_with_ARGS_KWARGS.py" />
         <option value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/unpacking_function_argument.py" />
+        <option value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/comparisons.py" />
+        <option value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/string_conversion.py" />
+        <option value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/own_exception_classes.py" />
+        <option value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/cloning_objects.py" />
+        <option value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/abstract_classes.py" />
+        <option value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/named_tuples.py" />
+        <option value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/class_vs_instance_variable_pitfalls.py" />
+        <option value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/instance_class_static_methods.py" />
       </list>
     </option>
   </component>
@@ -438,6 +427,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -450,18 +441,10 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="PythonTricks" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonTricks" type="462c0819:PsiDirectoryNode" />
-              <item name="EffectiveFunctions" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -475,14 +458,15 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/twishar/Documents/GitHub/Python/GUI_PyQt5/Painting/Dots.py" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/CrosPlat" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython" />
       <recent name="$PROJECT_DIR$/PythonTricks/Asserts" />
       <recent name="$PROJECT_DIR$/MagicMethods/Numbers" />
       <recent name="$PROJECT_DIR$/PyQt/Base" />
+      <recent name="$PROJECT_DIR$/CrosPlat" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/CrosPlat" />
     </key>
   </component>
@@ -498,97 +482,97 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.unpacking_function_argument">
-    <configuration name="decorators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.instance_class_static_methods">
+    <configuration name="abstract_classes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/decorators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/abstract_classes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="func_with_ARGS_KWARGS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="class_vs_instance_variable_pitfalls" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/func_with_ARGS_KWARGS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/class_vs_instance_variable_pitfalls.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="lambdas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cloning_objects" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/lambdas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/cloning_objects.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="simple_sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="instance_class_static_methods" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/simple_sample.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/instance_class_static_methods.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="unpacking_function_argument" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="named_tuples" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/EffectiveFunctions/unpacking_function_argument.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/named_tuples.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -807,19 +791,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.simple_sample" />
-      <item index="1" class="java.lang.String" itemvalue="Python.lambdas" />
-      <item index="2" class="java.lang.String" itemvalue="Python.decorators" />
-      <item index="3" class="java.lang.String" itemvalue="Python.func_with_ARGS_KWARGS" />
-      <item index="4" class="java.lang.String" itemvalue="Python.unpacking_function_argument" />
+      <item index="0" class="java.lang.String" itemvalue="Python.cloning_objects" />
+      <item index="1" class="java.lang.String" itemvalue="Python.abstract_classes" />
+      <item index="2" class="java.lang.String" itemvalue="Python.named_tuples" />
+      <item index="3" class="java.lang.String" itemvalue="Python.class_vs_instance_variable_pitfalls" />
+      <item index="4" class="java.lang.String" itemvalue="Python.instance_class_static_methods" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.unpacking_function_argument" />
-        <item index="1" class="java.lang.String" itemvalue="Python.func_with_ARGS_KWARGS" />
-        <item index="2" class="java.lang.String" itemvalue="Python.decorators" />
-        <item index="3" class="java.lang.String" itemvalue="Python.lambdas" />
-        <item index="4" class="java.lang.String" itemvalue="Python.simple_sample" />
+        <item index="0" class="java.lang.String" itemvalue="Python.instance_class_static_methods" />
+        <item index="1" class="java.lang.String" itemvalue="Python.class_vs_instance_variable_pitfalls" />
+        <item index="2" class="java.lang.String" itemvalue="Python.named_tuples" />
+        <item index="3" class="java.lang.String" itemvalue="Python.abstract_classes" />
+        <item index="4" class="java.lang.String" itemvalue="Python.cloning_objects" />
       </list>
     </recent_temporary>
   </component>
@@ -846,15 +830,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38598442" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16426194" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38598442" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28031147" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259177" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23136818" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23907028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24460432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4161594" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -930,69 +913,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PyQt/Base/messagebox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyQt/Base/center.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyQt/Base/intro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyQt/MenusAndToolbars/context_menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyQt/MenusAndToolbars/mainwindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="16" column="50" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyQt/MenusAndToolbars/simple_menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyQt/MenusAndToolbars/submenu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyQt/MenusAndToolbars/statusbar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyQt/MenusAndToolbars/checkmenu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="20" column="33" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PyQt/Dialogs/file_dialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1156,17 +1076,17 @@
         <state relative-caret-position="576">
           <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="50" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/epidemic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
+        <state relative-caret-position="72">
           <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1181,7 +1101,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/context_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
+        <state relative-caret-position="738">
           <caret line="41" column="12" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
           <folding />
         </state>
@@ -1189,7 +1109,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonTricks/PatternsForCleaningPython/string_formatting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
+        <state relative-caret-position="1224">
           <caret line="68" column="7" lean-forward="false" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
           <folding />
         </state>
@@ -1197,7 +1117,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/simple_sample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
+        <state relative-caret-position="2232">
           <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding />
         </state>
@@ -1205,7 +1125,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/lambdas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="0">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
@@ -1213,7 +1133,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/decorators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
+        <state relative-caret-position="1548">
           <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding />
         </state>
@@ -1221,16 +1141,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/func_with_ARGS_KWARGS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="990">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonTricks/EffectiveFunctions/unpacking_function_argument.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="325">
+          <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/comparisons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/string_conversion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/own_exception_classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/cloning_objects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/abstract_classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/named_tuples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/class_vs_instance_variable_pitfalls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTricks/Classes&amp;OOP/instance_class_static_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DataAnalysis/Kurs/Classes&amp;OOP/comparisons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
